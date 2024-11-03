@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -26,12 +27,12 @@
     --ff-inconsolata: 'Iconsolata', sans-serif;
     --ff-maven-pro: 'Maven-Pro', sans-serif;
 
-    --fs-lg-asap: 3.5rem;
-    --fs-md-asap: 1.5rem;
-    --fs-sm-asap: 1rem;
+    --fs-lg-asap: 700 3.5rem/120%;
+    --fs-md-asap: 700 1.5rem/120%;
+    --fs-sm-asap: 700 1rem/120%;
 
-    --fs-s-incosolata: 1.25rem;
+    --fs-s-incosolata: 400 1.25rem/120%;
 
-    --fs-md-mpro: 1rem
-    --fs-sm-mpro: 0.875rem
+    --fs-md-mpro: 400 1rem 140%;
+    --fs-sm-mpro: 400 0.875rem 140%;
 }
