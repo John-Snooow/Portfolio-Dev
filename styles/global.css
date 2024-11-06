@@ -27,8 +27,8 @@ html{
     /*tipografia*/
 
     --ff-asap: 'Asap', sans-serif;
-    --ff-inconsolata: 'Iconsolata', sans-serif;
-    --ff-maven-pro: 'Maven-Pro', sans-serif;
+    --ff-inconsolata: 'Iconsolata', monospace;
+    --ff-maven-pro: 'Maven Pro', sans-serif;
 
     --title-lg: 700 3.5rem/120% var(--ff-asap);
     --title-md: 700 1.5rem/120% var(--ff-asap);
