@@ -1,77 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth; /* Define um comportamento de rolagem suave para o documento HTML. Isso faz com que, ao clicar em um link que leva a uma âncora na mesma página, a rolagem ocorra de forma gradual, em vez de ser instantânea, proporcionando uma experiência de navegação mais agradável para o usuário. */
-}
-
-:root{
-    /*cores principais*/
-    --color-red:#E3646E;
-    --color-purple:#BB72E9;
-    --color-blue:#3996DB;
-    --color-green:#82BC4F;
-    --color-yellow:#EABD5F;
-
-    /*cores base*/
-
-    --color-gray-100:#0D0E11;
-    --color-gray-200:#16181D;
-    --color-gray-300:#292C34;
-    --color-gray-400:#878EA1;
-    --color-gray-500:#C0C4CE;
-    --color-gray-600:#E2E4E9;
-
-    /*tipografia*/
-
-    --ff-asap: 'Asap', sans-serif;
-    --ff-inconsolata: 'Iconsolata', monospace;
-    --ff-maven-pro: 'Maven Pro', sans-serif;
-
-    --title-lg: 700 3.5rem/120% var(--ff-asap);
-    --title-md: 700 1.5rem/120% var(--ff-asap);
-    --title-sm: 700 1rem/120% var(--ff-asap);
-
-    --subtitle: 400 1.25rem/120% var(--ff-inconsolata);
-
-    --text-md: 400 1rem 140% var(--ff-maven-pro);
-    --text-sm: 400 0.875rem 140% var(--ff-maven-pro);
+html {
+  scroll-behavior: smooth; /* Define um comportamento de rolagem suave para o documento HTML. Isso faz com que, ao clicar em um link que leva a uma âncora na mesma página, a rolagem ocorra de forma gradual, em vez de ser instantânea, proporcionando uma experiência de navegação mais agradável para o usuário. */
 }
 
-body{
-    font:var(--text-sm);
-    color: var(--color-gray-600);
-    background-color: var(--color-gray-200);
+:root {
+  /*cores principais*/
+  --color-red: #e3646e;
+  --color-purple: #bb72e9;
+  --color-blue: #3996db;
+  --color-green: #82bc4f;
+  --color-yellow: #eabd5f;
+
+  /*cores base*/
+
+  --color-gray-100: #0d0e11;
+  --color-gray-200: #16181d;
+  --color-gray-300: #292c34;
+  --color-gray-400: #878ea1;
+  --color-gray-500: #c0c4ce;
+  --color-gray-600: #e2e4e9;
+
+  /*tipografia*/
+
+  --ff-asap: "Asap", sans-serif;
+  --ff-inconsolata: "Iconsolata", monospace;
+  --ff-maven-pro: "Maven Pro", sans-serif;
+
+  --title-lg: 700 3.5rem/120% var(--ff-asap);
+  --title-md: 700 1.5rem/120% var(--ff-asap);
+  --title-sm: 700 1rem/120% var(--ff-asap);
+
+  --subtitle: 400 1.25rem/120% var(--ff-inconsolata);
+
+  --text-md: 400 1rem/140% var(--ff-maven-pro);
+  --text-sm: 400 0.875rem/140% var(--ff-maven-pro);
+  --text: 400 1rem/140% var(--ff-maven-pro);
 }
 
-a{
-    text-decoration: none;
-    color: inherit; /* Define que a cor do texto dos links (<a>) deve herdar a cor do seu elemento pai. Isso garante que os links tenham a mesma cor que o texto ao seu redor, mantendo a consistência visual e evitando que os links se destaquem de maneira indesejada. */
-}
-h1, h2, h3{
-    font: inherit; /* Define que os elementos de cabeçalho (h1, h2, h3) herdarão todas as propriedades de fonte do seu elemento pai. Isso garante que a tipografia dos cabeçalhos seja consistente com o restante do texto na página, permitindo uma melhor integração visual e evitando discrepâncias de estilo. */
+body {
+  font: var(--text);
+  color: var(--color-gray-600);
+  background-color: var(--color-gray-200);
 }
 
-img{
-    max-width: 100%;
+a {
+  text-decoration: none;
+  color: inherit; /* Define que a cor do texto dos links (<a>) deve herdar a cor do seu elemento pai. Isso garante que os links tenham a mesma cor que o texto ao seu redor, mantendo a consistência visual e evitando que os links se destaquem de maneira indesejada. */
+}
+h1,
+h2,
+h3 {
+  font: inherit; /* Define que os elementos de cabeçalho (h1, h2, h3) herdarão todas as propriedades de fonte do seu elemento pai. Isso garante que a tipografia dos cabeçalhos seja consistente com o restante do texto na página, permitindo uma melhor integração visual e evitando discrepâncias de estilo. */
 }
 
-.container{
-    max-width: 65rem;
-    margin: 0 auto;
+img {
+  max-width: 100%;
 }
 
-.title-section{
-    font: var(--subtitle);
-    color: var(--color-red);
-    margin-bottom: 0.5rem;
-    text-align: center;
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
 }
 
-.subtitle-section{
-    font: var(--title-md);
-    color:  var(--color-gray-600);
-    text-align: center;
+.title-section {
+  font: var(--subtitle);
+  color: var(--color-red);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.subtitle-section {
+  font: var(--title-md);
+  color: var(--color-gray-600);
+  text-align: center;
 }
